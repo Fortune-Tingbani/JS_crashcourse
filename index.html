@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo">Hello world!</p>
+    <button onclick="myFunc()">change value</button>
+    <p id="check" style="color: red;">Here's my new color</p>
+    <button onclick="myColor()">my color</button>
+
+    <script>
+        function myFunc() {
+            document.getElementById("demo").innerHTML="Hello everyone";
+        }
+        function myColor() {
+            document.getElementById("check").style.color="yellow";
+        }
+        //operators
+        const num =5;
+        const Num =6;
+        const sum =num + Num;
+        document.write(sum)
+    </script>
+</body>
+</html>
